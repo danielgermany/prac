@@ -6,3 +6,7 @@ def askQuestion():
 
 def question1(name):
     print("Hello, ", name , ", nice to meet you")
+
+def question2(string):
+    amount = len(string)
+    print(string," has ",amount," characters.")
