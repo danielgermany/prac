@@ -9,4 +9,6 @@ def question1(name):
 
 def question2(string):
     amount = len(string)
-    print(string," has ",amount," characters.")
+    print("%s has %s characters." % (string,amount))
+
+#def question3():
