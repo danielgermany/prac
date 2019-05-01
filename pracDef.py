@@ -11,4 +11,5 @@ def question2(string):
     amount = len(string)
     print("%s has %s characters." % (string,amount))
 
-#def question3():
+def question3(quote,author):
+    print('%s says, "%s"' % (author,quote))
