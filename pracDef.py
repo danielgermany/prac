@@ -13,3 +13,6 @@ def question2(string):
 
 def question3(quote,author):
     print('%s says, "%s"' % (author,quote))
+
+def question4(noun,verb,adj,adverb):
+    print('Do you %s your %s %s %s ?' % (verb,adj,noun,adverb))
