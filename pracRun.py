@@ -1,4 +1,5 @@
 from pracDef import *
 
 x = askQuestion()
-print(x)
+
+question1(x)
