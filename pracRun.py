@@ -18,3 +18,27 @@ elif x == 4:
     print("Advjective?");input3 = input()
     print("Adverb?");input4 = input()
     question4(input1,input2,input3,input4)
+elif x == 5:
+    while True:
+        print("Number 1?");input1 = input()
+        print("Number 2?");input2 = input()
+        try:
+            num1 = int(input1)
+            if num1 < 0:
+                print("You entered a negative number")
+                continue
+
+        except ValueError:
+            print("You entered a string")
+            continue
+
+        try:
+            num2 = int(input2)
+            if num2 < 0:
+                print("You entered a negative number")
+                continue
+        except ValueError:
+            print("You entered a string")
+            continue
+
+        question5(num1,num2)
