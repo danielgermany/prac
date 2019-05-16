@@ -42,3 +42,34 @@ elif x == 5:
             continue
 
         question5(num1,num2)
+
+elif x == 6:
+    while True:
+        print('What is your current age?');input1 = input()
+        print('At what age do you want to retire?');input2 = input()
+        try:
+            num1 = int(input1)
+            if num1 < 0:
+                print("You entered a negative number")
+                continue
+
+        except ValueError:
+            print("You entered a string")
+            continue
+
+        try:
+            num2 = int(input2)
+            if num2 < 0:
+                print("You entered a negative number")
+                continue
+        except ValueError:
+            print("You entered a string")
+            continue
+        question6(num1,num2)
+elif x == 7:
+    stringList = getInputs(True,False,"Hi","hello","twice","hurd")
+    Uinput = getInputs(True,False,"Hi","hello","twice","hurd")
+
+    for x in range(4):
+        print(stringList[x - 1])
+        print(Uinput[x - 1])
