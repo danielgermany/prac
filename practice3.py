@@ -1,0 +1,5 @@
+print("Quote?")
+input1 = input()
+print("Author?")
+input2 = input()
+print('%s says, "%s".' % (input1,input2))
