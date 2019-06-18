@@ -1,4 +1,4 @@
-import practice7_constant
+import constant
 
 while True:
     print('What is the length of the room in feet?')
